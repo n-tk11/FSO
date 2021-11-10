@@ -1,0 +1,9 @@
+title 0.6 Post Spa
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: 201 created
+
+note over browser:
+The event handler add new note to list and rerender
+then send the note to server.(via Post)
+end note
